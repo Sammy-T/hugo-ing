@@ -1,0 +1,16 @@
+/* Import external stylesheets */
+@import 'milligram/dist/milligram.min.css';
+
+/* Additional style rules.. */
+.billboard {
+    border-radius: 1rem;
+    margin: 5rem 3rem;
+    padding: 5rem;
+    background-color:slategray;
+    color: whitesmoke;
+    text-align: center;
+}
+
+nav, .description {
+    text-align: center;
+}
