@@ -6,16 +6,24 @@
 
         <title>{{ $.Site.Title }}</title>
 
+        <!-- Process CSS files with PostCSS -->
+        <!-- More details: https://gohugo.io/hugo-pipes/postcss/ -->
         {{ $style := resources.Get "css/main.css" | resources.PostCSS }}
         <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
+        <!-- Process JavaScript files with ESBuild -->
+        <!-- More details: https://gohugo.io/hugo-pipes/js/ -->
         {{ $built := resources.Get "js/index.js" | js.Build "main.js" }}
         <script src="{{ $built.RelPermalink }}" defer></script>
     </head>
 
     <body>
+        {{ block "header" .}}{{ partial "header.html" . }}{{ end }}
+
         {{ block "main" . }}
         <main class="container">{{ block "main-content" . }}{{ end }}</main>
         {{ end }}
+
+        {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
     </body>
 </html>

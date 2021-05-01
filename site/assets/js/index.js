@@ -1,8 +1,8 @@
+// Include external JavaScript
 const anime = require('animejs');
 
-console.log('Hello Hugo.');
-
-function randomBg() {
+// Add your JavaScript
+function animateBoardBg() {
     anime({
         targets: '.billboard',
         backgroundImage: function() {
@@ -20,8 +20,9 @@ function randomBg() {
         },
         easing: 'easeInOutSine',
         duration: 3000,
-        complete: randomBg
+        complete: animateBoardBg
     });
 }
 
-randomBg();
+console.log('Edit \'site/assets/js/index.js\' with your JavaScript.');
+animateBoardBg();
