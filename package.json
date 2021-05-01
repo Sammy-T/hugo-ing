@@ -1,7 +1,8 @@
 {
   "name": "hugo-ing",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Hugo starter template.",
+  "repository": "github:Sammy-T/hugo-ing",
   "main": "index.js",
   "scripts": {
     "start": "hugo server -D -s site",
@@ -13,7 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "animejs": "^3.2.1",
-    "milligram": "^1.4.1",
+    "milligram": "^1.4.1"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.71.0",
     "postcss": "^8.2.13",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.1"
