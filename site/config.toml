@@ -8,4 +8,4 @@ title = "My new Hugo site"
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
-publishdir = "./dist/"
+publishdir = "../dist/"
