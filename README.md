@@ -1,5 +1,5 @@
 # Hugo-ing
-A simple Hugo starter for building websites using Hugo Pipes for CSS and JavaScript processing.
+A simple [Hugo](https://gohugo.io/) starter for building websites using Hugo Pipes for CSS and JavaScript processing.
 
 ![hugo-ing-screen](https://user-images.githubusercontent.com/22360092/116813537-24d35700-ab22-11eb-958a-1dfbcc9aaeff.png)
 
@@ -15,7 +15,7 @@ npm start
 ```
 Then navigate to `http://localhost:1313/` in your browser to view your dev server.
 
-#### Build your website inside the `dist/` directory:
+#### Build your website:
 ```
 npm run build
 ```
@@ -23,6 +23,7 @@ npm run build
 ```
 npm run build:preview
 ```
+**Built website files will be published to the `dist/` directory.**
 
 ## Structure
 ```
@@ -38,8 +39,6 @@ site/
  |-- config.toml    // Hugo configuration file
 postcss.config.js   // PostCSS configuration
 ```
-
-Built website files will be published to the `dist/` directory.
 
 ## License
 This project uses the [MIT](LICENSE) license.
