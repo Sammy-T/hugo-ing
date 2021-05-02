@@ -5,7 +5,7 @@ draft: false
 ---
 
 #### Pre-installed
-This template includes [Milligram](https://milligram.io/) CSS and [Anime.js](https://animejs.com/) as dependencies. Remove/Replace them with whatever best suits your website.
+Hugo-ing includes [Milligram](https://milligram.io/) CSS and [Anime.js](https://animejs.com/) as dependencies. Remove/Replace them with whatever best suits your website.
 
 #### Processing files
 Import files you want Hugo to process within their respective directories in `site/assets`.
