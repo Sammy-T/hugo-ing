@@ -1,6 +1,8 @@
 # Hugo-ing
 A simple Hugo starter for building websites using Hugo Pipes for CSS and JavaScript processing.
 
+![hugo-ing-screen](https://user-images.githubusercontent.com/22360092/116813537-24d35700-ab22-11eb-958a-1dfbcc9aaeff.png)
+
 ## Getting Started
 #### Install necessary packages:
 ```
@@ -38,3 +40,6 @@ postcss.config.js   // PostCSS configuration
 ```
 
 Built website files will be published to the `dist/` directory.
+
+## License
+This project uses the [MIT](LICENSE) license.
