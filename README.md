@@ -1,7 +1,8 @@
 # Hugo-ing
 A simple [Hugo](https://gohugo.io/) starter for building websites using Hugo Pipes for CSS and JavaScript processing.
 
-![hugo-ing-screen](https://user-images.githubusercontent.com/22360092/116813537-24d35700-ab22-11eb-958a-1dfbcc9aaeff.png)
+![hugo-ing-screen](https://user-images.githubusercontent.com/22360092/116813804-b099b300-ab23-11eb-95d7-2ab28a1bc508.png)
+
 
 ## Getting Started
 #### Install necessary packages:
