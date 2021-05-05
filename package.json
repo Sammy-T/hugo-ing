@@ -8,7 +8,7 @@
     "start": "hugo server -D -s site",
     "prebuild": "rimraf dist",
     "build": "hugo -s site",
-    "build:preview": "npm run prebuild && hugo -e development -D -s site"
+    "build:preview": "npm run prebuild && hugo -D -e development -s site"
   },
   "keywords": [],
   "author": "",
