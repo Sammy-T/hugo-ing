@@ -1,6 +1,6 @@
 {
   "name": "hugo-ing",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple Hugo boilerplate for building websites using Hugo Pipes for CSS and JavaScript processing.",
   "repository": "github:Sammy-T/hugo-ing",
   "main": "index.js",
@@ -18,10 +18,10 @@
     "milligram": "^1.4.1"
   },
   "devDependencies": {
-    "hugo-bin": "^0.71.0",
-    "postcss": "^8.2.13",
-    "postcss-cli": "^8.3.1",
-    "postcss-import": "^14.0.1",
+    "hugo-bin": "^0.76.1",
+    "postcss": "^8.3.7",
+    "postcss-cli": "^9.0.0",
+    "postcss-import": "^14.0.2",
     "rimraf": "^3.0.2"
   }
 }
