@@ -21,7 +21,7 @@
     "hugo-bin": "^0.99.2",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
-    "postcss-import": "^15.0.0",
+    "postcss-import": "^15.1.0",
     "rimraf": "^4.3.1"
   }
 }
