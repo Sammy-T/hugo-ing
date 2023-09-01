@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "hugo-bin": "^0.114.2",
-    "postcss": "^8.4.27",
+    "postcss": "^8.4.29",
     "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",
     "rimraf": "^5.0.1"
