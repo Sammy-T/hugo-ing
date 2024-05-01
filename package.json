@@ -18,7 +18,7 @@
     "milligram": "^1.4.1"
   },
   "devDependencies": {
-    "hugo-bin": "^0.121.1",
+    "hugo-bin": "^0.122.4",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.1.0",
