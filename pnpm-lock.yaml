@@ -28,7 +28,7 @@ importers:
         specifier: ^16.1.0
         version: 16.1.0(postcss@8.4.38)
       rimraf:
-        specifier: ^5.0.5
+        specifier: ^5.0.7
         version: 5.0.7
 
 packages:
