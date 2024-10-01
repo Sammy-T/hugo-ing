@@ -8,7 +8,7 @@
 
         <!-- Process CSS files with PostCSS -->
         <!-- More details: https://gohugo.io/hugo-pipes/postcss/ -->
-        {{ $style := resources.Get "css/main.css" | resources.PostCSS }}
+        {{ $style := resources.Get "css/main.css" | postCSS }}
         <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
         <!-- Process JavaScript files with ESBuild -->
