@@ -19,14 +19,14 @@ importers:
         specifier: ^0.142.0
         version: 0.142.0
       postcss:
-        specifier: ^8.5.1
-        version: 8.5.1
+        specifier: ^8.5.3
+        version: 8.5.3
       postcss-cli:
         specifier: ^11.0.0
-        version: 11.0.0(postcss@8.5.1)
+        version: 11.0.0(postcss@8.5.3)
       postcss-import:
         specifier: ^16.1.0
-        version: 16.1.0(postcss@8.5.1)
+        version: 16.1.0(postcss@8.5.3)
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -599,8 +599,8 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  postcss@8.5.1:
-    resolution: {integrity: sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==}
+  postcss@8.5.3:
+    resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
     engines: {node: ^10 || ^12 || >=14}
 
   pretty-hrtime@1.0.3:
@@ -1322,7 +1322,7 @@ snapshots:
 
   pify@2.3.0: {}
 
-  postcss-cli@11.0.0(postcss@8.5.1):
+  postcss-cli@11.0.0(postcss@8.5.3):
     dependencies:
       chokidar: 3.6.0
       dependency-graph: 0.11.0
@@ -1330,9 +1330,9 @@ snapshots:
       get-stdin: 9.0.0
       globby: 14.0.2
       picocolors: 1.0.1
-      postcss: 8.5.1
-      postcss-load-config: 5.1.0(postcss@8.5.1)
-      postcss-reporter: 7.1.0(postcss@8.5.1)
+      postcss: 8.5.3
+      postcss-load-config: 5.1.0(postcss@8.5.3)
+      postcss-reporter: 7.1.0(postcss@8.5.3)
       pretty-hrtime: 1.0.3
       read-cache: 1.0.0
       slash: 5.1.0
@@ -1341,29 +1341,29 @@ snapshots:
       - jiti
       - tsx
 
-  postcss-import@16.1.0(postcss@8.5.1):
+  postcss-import@16.1.0(postcss@8.5.3):
     dependencies:
-      postcss: 8.5.1
+      postcss: 8.5.3
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.8
 
-  postcss-load-config@5.1.0(postcss@8.5.1):
+  postcss-load-config@5.1.0(postcss@8.5.3):
     dependencies:
       lilconfig: 3.1.2
       yaml: 2.5.0
     optionalDependencies:
-      postcss: 8.5.1
+      postcss: 8.5.3
 
-  postcss-reporter@7.1.0(postcss@8.5.1):
+  postcss-reporter@7.1.0(postcss@8.5.3):
     dependencies:
-      picocolors: 1.1.1
-      postcss: 8.5.1
+      picocolors: 1.0.1
+      postcss: 8.5.3
       thenby: 1.3.4
 
   postcss-value-parser@4.2.0: {}
 
-  postcss@8.5.1:
+  postcss@8.5.3:
     dependencies:
       nanoid: 3.3.8
       picocolors: 1.1.1
