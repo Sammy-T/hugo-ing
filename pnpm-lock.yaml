@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       animejs:
-        specifier: ^4.2.2
-        version: 4.2.2
+        specifier: ^4.3.5
+        version: 4.3.5
       milligram:
         specifier: ^1.4.1
         version: 1.4.1
@@ -102,8 +102,8 @@ packages:
     resolution: {integrity: sha512-siPY6BD5dQ2SZPl3I0OZBHL27ZqZvLEosObsZRQ1NUB8qcxegwt0T9eKtV96JMFQpIz1elhkzqOg4c/Ri6Dp9A==}
     engines: {node: ^14.14.0 || >=16.0.0}
 
-  animejs@4.2.2:
-    resolution: {integrity: sha512-Ys3RuvLdAeI14fsdKCQy7ytu4057QX6Bb7m4jwmfd6iKmUmLquTwk1ut0e4NtRQgCeq/s2Lv5+oMBjz6c7ZuIg==}
+  animejs@4.3.5:
+    resolution: {integrity: sha512-yuQo/r97TCE+DDu3dTRKjyhBKSEGBcZorWeRW7WCE7EkAQpBoNd2E82dAAD/MDdrbREv7qsw/u7MAqiUX544WQ==}
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -845,7 +845,7 @@ snapshots:
     dependencies:
       arch: 3.0.0
 
-  animejs@4.2.2: {}
+  animejs@4.3.5: {}
 
   ansi-regex@5.0.1: {}
 
