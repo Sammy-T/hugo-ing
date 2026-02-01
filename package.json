@@ -14,7 +14,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "animejs": "^4.2.2",
+    "animejs": "^4.3.5",
     "milligram": "^1.4.1"
   },
   "devDependencies": {
