@@ -6,8 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "hugo server -D -s site",
-    "prebuild": "rimraf dist",
-    "build": "hugo -s site",
+    "build": "hugo -s site --cleanDestinationDir",
     "build:preview": "npm run prebuild && hugo -D -e development -s site"
   },
   "keywords": [],
@@ -21,7 +20,6 @@
     "hugo-bin": "^0.149.2",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
-    "postcss-import": "^16.1.1",
-    "rimraf": "^6.1.2"
+    "postcss-import": "^16.1.1"
   }
 }
